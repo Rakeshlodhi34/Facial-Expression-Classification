@@ -1,36 +1,60 @@
-# Facial-Expression-Classification
-Facial Expression Classification ML Model using MATLAB
-Overview
-This project implements a machine learning model in MATLAB for facial expression classification. The goal is to classify facial expressions into different emotion classes, such as happy, sad, angry, etc., using image processing and machine learning techniques.
+# 😊 Facial Expression Classification using MATLAB
 
-Technologies Used
-MATLAB: Utilized MATLAB's Image Processing Toolbox and Machine Learning Toolbox.
-Image Processing: Included face detection, alignment, feature extraction, and data augmentation techniques.
-Machine Learning Models: Implemented Support Vector Machines (SVM), Convolutional Neural Networks (CNN), and Ensemble methods.
-Evaluation Metrics: Used accuracy, precision, recall, and F1-score for performance evaluation.
-Project Structure
-data/: Contains the dataset for training and testing the model.
-code/
-preprocessing.m: Script for preprocessing facial images.
-feature_extraction.m: Extracts features from preprocessed images.
-model_training.m: Trains the machine learning model.
-model_evaluation.m: Evaluates the model performance on test data.
-results/: Stores the results and evaluation metrics.
-README.md: Provides an overview of the project and instructions for running the code.
-Usage
-Install MATLAB and ensure the required toolboxes are available.
-Clone or download the repository to your local machine.
-Place your facial expression dataset in the data/ directory.
-Open MATLAB and navigate to the project directory.
+This project implements a **Machine Learning model in MATLAB** for classifying facial expressions into various emotion categories such as **happy**, **sad**, **angry**, etc. It leverages image processing techniques for preprocessing and uses machine learning algorithms to recognize and categorize emotions from facial images.
+
+## 📌 Overview
+Facial expressions are powerful indicators of human emotion. The objective of this project is to automate facial expression recognition using image processing and machine learning methods in MATLAB.
+
+## 🛠️ Technologies Used
+- **MATLAB**
+  - Image Processing Toolbox
+  - Machine Learning Toolbox
+- **Image Processing Techniques**
+  - Face detection and alignment
+  - Feature extraction
+  - Data augmentation
+- **Machine Learning Models**
+  - Support Vector Machine (SVM)
+  - Convolutional Neural Network (CNN)
+  - Ensemble classifiers
+- **Evaluation Metrics**
+  - Accuracy
+  - Precision
+  - Recall
+  - F1-score
+
+
+
+## ▶️ Usage
+
+1. **Install MATLAB** with:
+   - Image Processing Toolbox
+   - Machine Learning Toolbox
+
+2. **Clone or download** this repository:
+   ```bash
+   git clone https://github.com/your-username/Facial-Expression-Classification.git
+Place your dataset inside the data/ directory. Make sure it follows a structured format (e.g., separate folders per expression label).
+
+Open MATLAB and set the working directory to the project folder.
+
 Run the scripts in the following order:
-preprocessing.m
-feature_extraction.m
-model_training.m
-model_evaluation.m
-View the results and evaluation metrics in the results/ directory.
-Results
-The facial expression classification model achieved an accuracy of X% on the test dataset, demonstrating its effectiveness in recognizing and categorizing different facial expressions.
 
-Contributors
+preprocessing.m
+
+feature_extraction.m
+
+model_training.m
+
+model_evaluation.m
+
+Check the results in the results/ directory for metrics and visualizations.
+
+📊 Results
+The model achieved an accuracy of X% on the test dataset, demonstrating its capability in classifying facial expressions across multiple emotion categories. (Replace X% with actual result once available)
+
+👨‍💻 Contributors
 Rakesh Lodhi
-Collaborator Kritia tripathi
+Kritia Tripathi
+Ashish Barpete
+
